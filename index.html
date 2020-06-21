@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Template</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+  <!-- Particle Effects -->
+	<div id="particles-js" class=""></div>
+
+  <!-- Logo -->
+	<div class="container black"><img class="cover" src="./img/logo.png"></div>
+
+    <!-- Rounded switch -->
+  <div id="right">
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round button2"></span>
+    </label>
+  </div>
+
+	<h1>Color Picker</h1>
+
+	<!-- Display the initial CSS linear gradient property on page load. -->
+	<input class="color1" type="color" name="color1" value="#aa227d">
+	<input class="color2" type="color" name="color2" value="#1b279e">
+	<h2>Current CSS Background</h2>
+
+	<!-- Colour inputs match the background generated on the first page load. -->
+	<h3>linear-gradient(to right, rgb(170, 34, 125), rgb(27, 39, 158));</h3>
+	<button class="button1">Random Color</button>
+
+  <!-- Script Files -->
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.json loaded.');
+    })
+  </script>
+
+</body>
+</html>
