@@ -25,6 +25,7 @@ body {
     letter-spacing: .5em;
     top: 15%;
   background: linear-gradient(to right, rgb(170, 34, 125), rgb(27, 39, 158)); /* Standard syntax */
+  overflow: hidden;
 }
 
 h1 {
